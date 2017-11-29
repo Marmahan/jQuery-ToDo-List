@@ -1,0 +1,43 @@
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.edittext{
+    display: none;
+}
+
+.saveitem{
+    display: none;
+    margin-left: 10px;
+}
+
+.msg{
+    color: red;
+    text-align: center;
+    display: none;
+}
+
+.glyphicon-trash{
+    float: right;
+    cursor: pointer;
+    color: hsla(0, 100%, 51%, 0.8);
+}
+li{
+    list-style: none;
+}
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #C3D8E9;
+}
+.todotext{
+    cursor: pointer;
+}
+.todotext:hover{
+    text-decoration: underline;
+}
